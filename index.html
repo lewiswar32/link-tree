@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">    
+  <title>Links website</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <style>
+    body {
+      background:url("https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg");
+      color: #fff;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .profile img {
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .name {
+      padding: 10px;
+      background-color: #007bff;
+      border-radius: 10px;
+      font-weight: bolder;
+    }
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .link {
+      width: 80%;
+      margin-bottom: 10px;
+      transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+    }
+
+    .link:hover {
+      background-color: #0056b3;
+      color: #fff;
+      transform: scale(1.05);
+    }
+
+    .bottom {
+      text-align: center;
+      font-weight: bolder;
+      padding: 10px;
+      border-top: 2px solid #007bff;
+      margin-top: 20px;
+    }
+
+    .bottom span {
+      color: #007bff;
+    }
+
+    .bottom svg {
+      stroke: #007bff;
+      fill: #007bff;
+      vertical-align: middle;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Content container -->
+  <div class="container">
+
+    <!-- Image and name container. Change to your picture here. -->
+    <div class="profile">
+      <img src="https://images.pexels.com/photos/426976/pexels-photo-426976.jpeg" width="150" height="150" alt="image">
+      <p><span class="name">Hi, I'm Lewis!</span></p>
+      <p style="font-weight: bolder;">Check out my links!</p>
+    </div>
+
+    <!-- Links sections -->
+    <div class="links-container">
+      <h4 class="w3-margin">MY SOCIAL NETWORKS</h4>
+      <a href="https://en-gb.facebook.com/people/Lewis-Ward/pfbid027hWy328whBDX2o9Me5D4DoVmUivv3ErcRUGkWdQf8e8tL5pUnpC95D4TrHCv6cMql/" class="w3-button w3-round w3-theme-l1 w3-border link" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/lewisw__.__/" class="w3-button w3-round w3-theme-l1 w3-border link" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@ln4.lewis" class="w3-button w3-round w3-theme-l1 w3-border link" target="_blank">TikTok</a>
+    </div>
+
+    <!-- Bottom section -->
+    <div class="bottom">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"></svg>
+      <span>2023 - Lewis Ward</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"></svg>
+    </div>
+  </div>
+  <script>
+    feather.replace()
+  </script>
+</body>  
+</html>
